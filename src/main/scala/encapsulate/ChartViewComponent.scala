@@ -1,0 +1,10 @@
+package encapsulate
+
+trait ChartViewComponent
+extends ChartViewFactoryComponent
+
+trait ChartViewComponentImpl
+extends ChartViewComponent
+with ChartViewFactoryComponentImpl
+with HistogramViewFactoryComponentImpl
+with ScatterPlotViewFactoryComponentImpl

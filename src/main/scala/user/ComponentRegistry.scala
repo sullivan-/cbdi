@@ -1,0 +1,10 @@
+package user
+
+trait ComponentRegistry
+extends UserServiceComponent
+with UserRepositoryComponent
+
+object ComponentRegistryImpl
+extends ComponentRegistry
+with UserServiceComponentImpl
+with UserRepositoryComponentImpl

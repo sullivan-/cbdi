@@ -1,0 +1,10 @@
+package encapsulate
+
+trait ViewComponent
+extends TopViewComponent
+with ChartViewComponent
+
+trait ViewComponentImpl
+extends ViewComponent
+with TopViewComponentImpl
+with ChartViewComponentImpl
