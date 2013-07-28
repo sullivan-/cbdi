@@ -1,4 +1,6 @@
 cbdi
 ====
 
-Source code and tests for example code from an article I am working on. More info soon...
+Source code and tests for example code from my blog post
+"Component Based Dependency Injection in Scala" -
+http://scabl.blogspot.com/2013/02/cbdi.html
